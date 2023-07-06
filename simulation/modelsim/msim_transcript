@@ -1,0 +1,668 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do top_module_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/clkdiv.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/clkdiv.v 
+# -- Compiling module clkdiv
+# 
+# Top level modules:
+# 	clkdiv
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/spi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/spi.v 
+# -- Compiling module spi
+# 
+# Top level modules:
+# 	spi
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db/pll_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv 
+# -- Compiling module ball_sv
+# 
+# Top level modules:
+# 	ball_sv
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tft_sv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tft_sv.sv 
+# -- Compiling module tft_sv
+# 
+# Top level modules:
+# 	tft_sv
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/top_module_sv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/top_module_sv.sv 
+# -- Compiling module top_module_sv
+# 
+# Top level modules:
+# 	top_module_sv
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration {C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tb_top_module.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:11 on Apr 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration" C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tb_top_module.v 
+# -- Compiling module tb_top_module
+# 
+# Top level modules:
+# 	tb_top_module
+# End time: 13:43:11 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_top_module
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_top_module 
+# Start time: 13:43:11 on Apr 02,2023
+# Loading work.tb_top_module
+# Loading sv_std.std
+# Loading work.top_module_sv
+# Loading work.pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.clkdiv
+# Loading work.ball_sv
+# Loading work.tft_sv
+# Loading work.spi
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 90000  Instance: tb_top_module.dut.pll_inst.altpll_component.cycloneiii_pll.pll3
+# Break key hit
+# Break in Module MF_cycloneiii_pll at /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v line 16973
+# Error opening C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Path name 'C:/build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v' doesn't exist.
+vlib altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "altera_mf_ver".
+vmap altera_mf_ver altera_mf_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap altera_mf_ver altera_mf_ver 
+# Modifying modelsim.ini
+vlog -work altera_mf_ver $env(QUARTUS_ROOTDIR)/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:48 on Apr 02,2023
+# vlog -reportprogress 300 -work altera_mf_ver c:/intelfpga_lite/18.1/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 13:45:48 on Apr 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver -t ns work.tb_top_module
+# End time: 13:46:24 on Apr 02,2023, Elapsed time: 0:03:13
+# Errors: 1, Warnings: 0
+# vsim -L altera_mf_ver -t ns work.tb_top_module 
+# Start time: 13:46:24 on Apr 02,2023
+# Loading work.tb_top_module
+# Loading sv_std.std
+# Loading work.top_module_sv
+# Loading work.pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.clkdiv
+# Loading work.ball_sv
+# Loading work.tft_sv
+# Loading work.spi
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_top_module/clk \
+sim:/tb_top_module/tft_sdo \
+sim:/tb_top_module/tft_sck \
+sim:/tb_top_module/tft_sdi \
+sim:/tb_top_module/tft_dc \
+sim:/tb_top_module/tft_reset \
+sim:/tb_top_module/tft_cs \
+sim:/tb_top_module/leds
+add wave -position insertpoint  \
+sim:/tb_top_module/dut/tft_inst/INPUT_CLK_MHZ \
+sim:/tb_top_module/dut/tft_inst/INIT_SEQ_LEN \
+sim:/tb_top_module/dut/tft_inst/clk \
+sim:/tb_top_module/dut/tft_inst/tft_sdo \
+sim:/tb_top_module/dut/tft_inst/tft_sck \
+sim:/tb_top_module/dut/tft_inst/tft_sdi \
+sim:/tb_top_module/dut/tft_inst/tft_dc \
+sim:/tb_top_module/dut/tft_inst/tft_reset \
+sim:/tb_top_module/dut/tft_inst/tft_cs \
+sim:/tb_top_module/dut/tft_inst/framebufferData \
+sim:/tb_top_module/dut/tft_inst/framebufferClk \
+sim:/tb_top_module/dut/tft_inst/spiData \
+sim:/tb_top_module/dut/tft_inst/spiDataSet \
+sim:/tb_top_module/dut/tft_inst/spiIdle \
+sim:/tb_top_module/dut/tft_inst/frameBufferLowNibble \
+sim:/tb_top_module/dut/tft_inst/initSeqCounter \
+sim:/tb_top_module/dut/tft_inst/INIT_SEQ \
+sim:/tb_top_module/dut/tft_inst/remainingDelayTicks \
+sim:/tb_top_module/dut/tft_inst/state
+add wave -position insertpoint  \
+sim:/tb_top_module/dut/ball1/X \
+sim:/tb_top_module/dut/ball1/Y \
+sim:/tb_top_module/dut/ball1/VX \
+sim:/tb_top_module/dut/ball1/RADIUS \
+sim:/tb_top_module/dut/ball1/MIN_Y \
+sim:/tb_top_module/dut/ball1/MAX_Y \
+sim:/tb_top_module/dut/ball1/MIN_X \
+sim:/tb_top_module/dut/ball1/MAX_X \
+sim:/tb_top_module/dut/ball1/checkX \
+sim:/tb_top_module/dut/ball1/checkY \
+sim:/tb_top_module/dut/ball1/isSet \
+sim:/tb_top_module/dut/ball1/physicsClk \
+sim:/tb_top_module/dut/ball1/x \
+sim:/tb_top_module/dut/ball1/y \
+sim:/tb_top_module/dut/ball1/vx \
+sim:/tb_top_module/dut/ball1/vy \
+sim:/tb_top_module/dut/ball1/newX \
+sim:/tb_top_module/dut/ball1/newY \
+sim:/tb_top_module/dut/ball1/pixelX \
+sim:/tb_top_module/dut/ball1/pixelY \
+sim:/tb_top_module/dut/ball1/signedCheckX \
+sim:/tb_top_module/dut/ball1/signedCheckY \
+sim:/tb_top_module/dut/ball1/squaredDist
+run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 90  Instance: tb_top_module.dut.pll_inst.altpll_component.cycloneiii_pll.pll3
+run -all
+run -all
+vlib altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "altera_mf_ver".
+vmap altera_mf_ver altera_mf_ver
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap altera_mf_ver altera_mf_ver 
+# Modifying modelsim.ini
+vlog -work altera_mf_ver $env(QUARTUS_ROOTDIR)/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:50:37 on Apr 02,2023
+# vlog -reportprogress 300 -work altera_mf_ver c:/intelfpga_lite/18.1/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 13:50:38 on Apr 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work altera_mf_ver $env(QUARTUS_ROOTDIR)/eda/sim_lib/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:50:54 on Apr 02,2023
+# vlog -reportprogress 300 -work altera_mf_ver c:/intelfpga_lite/18.1/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 13:50:55 on Apr 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver -t ps work.tb_top_module
+# End time: 13:51:08 on Apr 02,2023, Elapsed time: 0:04:44
+# Errors: 0, Warnings: 1
+# vsim -L altera_mf_ver -t ps work.tb_top_module 
+# Start time: 13:51:08 on Apr 02,2023
+# Loading work.tb_top_module
+# Loading sv_std.std
+# Loading work.top_module_sv
+# Loading work.pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.clkdiv
+# Loading work.ball_sv
+# Loading work.tft_sv
+# Loading work.spi
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_top_module/clk \
+sim:/tb_top_module/tft_sdo \
+sim:/tb_top_module/tft_sck \
+sim:/tb_top_module/tft_sdi \
+sim:/tb_top_module/tft_dc \
+sim:/tb_top_module/tft_reset \
+sim:/tb_top_module/tft_cs \
+sim:/tb_top_module/leds
+add wave -position insertpoint sim:/tb_top_module/dut/tft_inst/*
+add wave -position insertpoint sim:/tb_top_module/dut/ball1/*
+run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 90000  Instance: tb_top_module.dut.pll_inst.altpll_component.cycloneiii_pll.pll3
+add wave -position insertpoint  \
+sim:/tb_top_module/dut/ball1/X \
+sim:/tb_top_module/dut/ball1/Y \
+sim:/tb_top_module/dut/ball1/VX \
+sim:/tb_top_module/dut/ball1/RADIUS \
+sim:/tb_top_module/dut/ball1/MIN_Y \
+sim:/tb_top_module/dut/ball1/MAX_Y \
+sim:/tb_top_module/dut/ball1/MIN_X \
+sim:/tb_top_module/dut/ball1/MAX_X
+run -all
+run -all
+run -all
+# End time: 12:04:02 on Apr 03,2023, Elapsed time: 22:12:54
+# Errors: 0, Warnings: 1

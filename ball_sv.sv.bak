@@ -1,0 +1,40 @@
+module ball_sv(input[8:0] checkX, input[7:0] checkY, output wire isSet, input wire physicsClk);
+   parameter X = 30;
+	parameter Y = 30;
+	parameter VX = 1;
+	parameter RADIUS = 32;
+	
+	localparam MIN_Y = (31 + RADIUS/6) << 6;
+	localparam MAX_Y = (240 - RADIUS/6) << 6;
+	localparam MIN_X = (0 + RADIUS/6) << 6;
+	localparam MAX_X = (320 - RADIUS/6) << 6;	
+	
+	reg signed [15:0] x = 16'(X) <<< 6;
+	reg signed [15:0] y = 16'(Y) <<< 6;
+	reg signed [15:0] vx = 10'(VX) <<< 4;
+	reg signed [15:0] vy = 10'sd0;
+	
+	// Physics
+	wire signed [15:0] newX = x + vx;
+	wire signed [15:0] newY = y - vy;
+	
+	always @ (posedge physicsClk) begin
+		if (newY < MIN_Y || newY > MAX_Y) vy <= -vy - 1'sb1;
+		else begin
+			y <= newY;
+			vy <= vy - 1'sb1;
+		end
+		
+		if (newX < MIN_X || newX > MAX_X) vx <= -vx;
+		else x <= newX;
+	end
+
+	// Rendering
+	wire[15:0] pixelX = (x >>> 6);
+	wire[15:0] pixelY = (y >>> 6);
+	wire[15:0] signedCheckX = checkX;
+	wire[15:0] signedCheckY = checkY;
+	wire[31:0] squaredDist = (pixelX - signedCheckX) * (pixelX - signedCheckX) 
+								  + (pixelY - signedCheckY) * (pixelY - signedCheckY);
+	assign isSet = squaredDist <= RADIUS;
+endmodule

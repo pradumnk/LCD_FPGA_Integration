@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at ball_sv.sv(2): object "X" differs only in case from object "x" in the same scope File: C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv Line: 2
+Info (10281): Verilog HDL Declaration information at ball_sv.sv(3): object "Y" differs only in case from object "y" in the same scope File: C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv Line: 3
+Info (10281): Verilog HDL Declaration information at ball_sv.sv(4): object "DX" differs only in case from object "dx" in the same scope File: C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv Line: 4
+Info (10281): Verilog HDL Declaration information at ball_sv.sv(5): object "DY" differs only in case from object "dy" in the same scope File: C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv Line: 5

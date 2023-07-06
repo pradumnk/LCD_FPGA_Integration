@@ -1,0 +1,195 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/simulation/modelsim
+vball_sv
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1680423191
+!i10b 1
+!s100 VGEY3aURLP1:HHnhgz3zM0
+I<m3naX82:jW]RfH`E8MGP1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ball_sv_sv_unit
+S1
+R0
+w1680420091
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1680423191.000000
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/ball_sv.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration
+Z8 tCvgOpt 0
+vclkdiv
+R2
+!i10b 1
+!s100 z39e4d@0E<P]=P<Vj9?933
+IgSAi]T5GmXTeeca8YRTIz1
+R3
+R0
+w1679735574
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/clkdiv.v
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/clkdiv.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/clkdiv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/clkdiv.v|
+!i113 1
+Z9 o-vlog01compat -work work
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration
+R8
+vpll
+R2
+!i10b 1
+!s100 HBQUKAiPOca1`NSnLUo6]2
+I9OZc3[mB[i5VH[=Z@]8aa3
+R3
+R0
+w1679808333
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/pll.v
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/pll.v
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/pll.v|
+!i113 1
+R9
+R10
+R8
+vpll_altpll
+R2
+!i10b 1
+!s100 ?ZCl^fe6bD6VE4MH3Egmo0
+IOH[jRS0HbQB>I`d_mgY=80
+R3
+R0
+w1679833667
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db/pll_altpll.v
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db/pll_altpll.v
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db/pll_altpll.v|
+!i113 1
+R9
+!s92 -vlog01compat -work work +incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/db
+R8
+vspi
+R2
+!i10b 1
+!s100 X>Dmi[@90B2WDoDWiN;MY2
+I9Z[<Hma?[jn5cgaFbW>fz0
+R3
+R0
+w1679839751
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/spi.v
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/spi.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/spi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/spi.v|
+!i113 1
+R9
+R10
+R8
+vtb_top_module
+R2
+!i10b 1
+!s100 Ya1F=ZgnFEzK4WEml29ng1
+In0NDZc0zcfAhMlc?oZ74M2
+R3
+R0
+w1679833984
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tb_top_module.v
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tb_top_module.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tb_top_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tb_top_module.v|
+!i113 1
+R9
+R10
+R8
+vtft_sv
+R1
+R2
+!i10b 1
+!s100 7L[j=>dX7I3O6kJ1zI:]I3
+IGR?^AJPcdKeD`58kAC[hF2
+R3
+!s105 tft_sv_sv_unit
+S1
+R0
+w1679935478
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tft_sv.sv
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tft_sv.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tft_sv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/tft_sv.sv|
+!i113 1
+R6
+R7
+R8
+vtop_module_sv
+R1
+R2
+!i10b 1
+!s100 BGLh_1QFH97NVaCmY=:m`1
+I=i]oOcW6La[RcDh;G^>=]3
+R3
+!s105 top_module_sv_sv_unit
+S1
+R0
+w1680423155
+8C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/top_module_sv.sv
+FC:/Users/prady/OneDrive/Documents/Quartus/tft_integration/top_module_sv.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/top_module_sv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/prady/OneDrive/Documents/Quartus/tft_integration|C:/Users/prady/OneDrive/Documents/Quartus/tft_integration/top_module_sv.sv|
+!i113 1
+R6
+R7
+R8

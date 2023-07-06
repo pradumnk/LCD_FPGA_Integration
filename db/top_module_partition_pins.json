@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tft_sck",
+					"strict" : false
+				},
+				{
+					"name" : "tft_sdi",
+					"strict" : false
+				},
+				{
+					"name" : "tft_dc",
+					"strict" : false
+				},
+				{
+					"name" : "tft_reset",
+					"strict" : false
+				},
+				{
+					"name" : "tft_cs",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

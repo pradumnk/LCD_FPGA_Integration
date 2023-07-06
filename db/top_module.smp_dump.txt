@@ -1,0 +1,8 @@
+
+State Machine - |top_module_sv|tft_sv:tft_inst|state
+Name state.SEND_INIT_SEQ state.WAIT_FOR_POWERUP state.HOLD_RESET state.START state.LOOP 
+state.START 0 0 0 0 0 
+state.HOLD_RESET 0 0 1 1 0 
+state.WAIT_FOR_POWERUP 0 1 0 1 0 
+state.SEND_INIT_SEQ 1 0 0 1 0 
+state.LOOP 0 0 0 1 1 

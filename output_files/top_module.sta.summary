@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -39.806
+TNS   : -316.058
+
+Type  : Slow 1200mV 85C Model Setup 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : -4.104
+TNS   : -40.630
+
+Type  : Slow 1200mV 85C Model Setup 'clkdiv:clk_120hz_div|outClk'
+Slack : -3.567
+TNS   : -199.936
+
+Type  : Slow 1200mV 85C Model Setup 'clkdiv:clk10khz_generation|outClk'
+Slack : -2.560
+TNS   : -30.224
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -0.869
+TNS   : -0.869
+
+Type  : Slow 1200mV 85C Model Hold 'clkdiv:clk_120hz_div|outClk'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkdiv:clk10khz_generation|outClk'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.558
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkdiv:clk_120hz_div|outClk'
+Slack : -1.000
+TNS   : -65.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkdiv:clk10khz_generation|outClk'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.747
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -35.489
+TNS   : -281.626
+
+Type  : Slow 1200mV 0C Model Setup 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : -3.548
+TNS   : -34.460
+
+Type  : Slow 1200mV 0C Model Setup 'clkdiv:clk_120hz_div|outClk'
+Slack : -3.141
+TNS   : -172.908
+
+Type  : Slow 1200mV 0C Model Setup 'clkdiv:clk10khz_generation|outClk'
+Slack : -2.200
+TNS   : -26.056
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -0.749
+TNS   : -0.749
+
+Type  : Slow 1200mV 0C Model Hold 'clkdiv:clk_120hz_div|outClk'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkdiv:clk10khz_generation|outClk'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkdiv:clk_120hz_div|outClk'
+Slack : -1.000
+TNS   : -65.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkdiv:clk10khz_generation|outClk'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.743
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.701
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -22.306
+TNS   : -177.065
+
+Type  : Fast 1200mV 0C Model Setup 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : -1.886
+TNS   : -15.633
+
+Type  : Fast 1200mV 0C Model Setup 'clkdiv:clk_120hz_div|outClk'
+Slack : -1.574
+TNS   : -84.202
+
+Type  : Fast 1200mV 0C Model Setup 'clkdiv:clk10khz_generation|outClk'
+Slack : -1.038
+TNS   : -9.022
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.455
+TNS   : -0.455
+
+Type  : Fast 1200mV 0C Model Hold 'clkdiv:clk_120hz_div|outClk'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkdiv:clk10khz_generation|outClk'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkdiv:clk_120hz_div|outClk'
+Slack : -1.000
+TNS   : -65.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkdiv:clk10khz_generation|outClk'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tft_sv:tft_inst|frameBufferLowNibble'
+Slack : -1.000
+TNS   : -17.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.782
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.446
+TNS   : 0.000
+
+------------------------------------------------------------
